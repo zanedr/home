@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -8,17 +8,21 @@
 }
 
 .App-header {
+  float: right;
+  font-family: 'Lora', serif;
   background-color: #222;
+  width: 75%;
   height: 150px;
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#menu {
+  display: inline-block;
+  text-align: center;
 }

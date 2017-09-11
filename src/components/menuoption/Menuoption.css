@@ -1,0 +1,14 @@
+.menu-option {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    border-left: 1px solid #FFF;
+    font-weight: 300;
+    margin-left: 5vw;
+    height: 30px;
+    width: 120px;
+}
+
+.menu-option:hover {
+    border-left: 1px solid #777;
+    transition-duration: 0.3s;
+}
