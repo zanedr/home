@@ -3,12 +3,18 @@
     font-size: 14px;
     border-left: 1px solid #FFF;
     font-weight: 300;
-    margin-left: 5vw;
+    margin: 0 auto;
     height: 30px;
     width: 120px;
 }
 
+h3 {
+    margin: 5px;
+    width: 80px;
+}
+
 .menu-option:hover {
+    color: #777;
     border-left: 1px solid #777;
     transition-duration: 0.3s;
 }
