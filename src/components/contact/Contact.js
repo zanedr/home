@@ -6,10 +6,10 @@ export const Contact = () => {
         <section id='contact-container'>
             {/* <h3 className='contact-title'>Contact</h3> */}
             <div className='contact-links'>
-                <a href=""><MailSvg /></a>
-                <a href=""><LinkdInSvg /></a>
-                <a href=""><GitHubSvg/></a>
-                <a href=""><TwitterSvg /></a>
+                <a href="mailto: zanedanielrussell@gmail.com"><MailSvg /></a>
+                <a href="https://www.linkedin.com/in/zane-russell-62a8b7132/"><LinkdInSvg /></a>
+                <a href="https://github.com/zanedr"><GitHubSvg/></a>
+                <a href="https://twitter.com/zaneroosa"><TwitterSvg /></a>
             </div>
         </section>
     )
