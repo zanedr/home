@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Contact.css';
 
 export const Contact = () => {
@@ -15,7 +15,7 @@ export const Contact = () => {
     )
 }
 
-const LinkdInSvg = React.createClass({
+class LinkdInSvg extends Component{
     render() {
         return (
             <svg className="contact-icon" viewBox="0 0 512.003 512.003">
@@ -37,9 +37,9 @@ const LinkdInSvg = React.createClass({
             </svg>
         )
     }
-})
+}
 
-const MailSvg = React.createClass({
+class MailSvg extends Component{
     render() {
         return (
             <svg className="contact-icon" viewBox="0 0 334.5 334.5">
@@ -51,9 +51,9 @@ const MailSvg = React.createClass({
             </svg>
         )
     }
-})
+}
 
-const GitHubSvg = React.createClass({
+class GitHubSvg extends Component{
     render() {
         return (
             <svg className="contact-icon" viewBox="0 0 478.613 478.613">
@@ -77,9 +77,9 @@ const GitHubSvg = React.createClass({
             </svg>
         )
     }
-})
+}
 
-const TwitterSvg = React.createClass({
+class TwitterSvg extends Component{
     render() {
         return (
             <svg className="contact-icon" viewBox="0 0 511.588 511.588">
@@ -100,4 +100,4 @@ const TwitterSvg = React.createClass({
             </svg>
         )
     }
-})
+}

@@ -23,7 +23,7 @@ export class Coding extends Component {
             return(
                 <div>
                     <CodingProject title="On Tour" 
-                                   summary="On Tour is a gas calculator for band on the road. Utilizing the GoogleMaps API, the U.S. Energy Information Administration API, and data provided by the user, On Tour will calculate distances and total cost with respect to local gas prices and return an estimate of total cost.  Notes can be stored within each location for easy recall." 
+                                   summary="On Tour is a gas calculator for bands on the road. Utilizing the GoogleMaps API, the U.S. Energy Information Administration API, and data provided by the user, On Tour will calculate distances and total cost with respect to local gas prices and return an estimate of total cost.  Notes can be stored within each location for easy recall." 
                                    builtUsing="React, Redux"
                                    picture={require('./ontour.png')}
                                    pageLink="https://zanedr.github.io/On-Tour/"
