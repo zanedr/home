@@ -3,6 +3,7 @@ import { Route, Link, Switch } from 'react-router-dom'
 import { Menu } from './components/menu/Menu'
 import { About } from './components/about/About'
 import { Coding } from './components/coding/Coding'
+import { Contact } from './components/contact/Contact'
 import './App.css';
 
 class App extends Component {
@@ -37,6 +38,7 @@ class App extends Component {
         <section>
           <About />
           <Coding />
+          <Contact />
         </section>
       </div>
     );

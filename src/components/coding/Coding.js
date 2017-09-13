@@ -12,10 +12,8 @@ export class Coding extends Component {
 
     switchPopUpStatus() {
         if(this.state.popUp === true) {
-            console.log('Coding popup false')
             this.setState({popUp: false})
         } else {
-            console.log('Coding popup true')
             this.setState({popUp: true})
         }
     }
