@@ -1,18 +1,45 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Route, Link, Switch } from 'react-router-dom'
+import { Menu } from './components/menu/Menu'
+import { About } from './components/about/About'
+import { Coding } from './components/coding/Coding'
+import { Contact } from './components/contact/Contact'
 import './App.css';
 
 class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      
+    }
+  }
+
+  detectScroll() {
+    console.log('yeah');
+  }
+
+  adjustMenuSticky() {
+    const menu = document.querySelector('#menu');
+    const scroll = window.scrollY;
+
+    return (
+        <Menu pageScroll={() => this.detectScroll.bind(this)}/>
+    )
+  }
+
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div className="app">
+        <div className="app-header">
+          <h2 className="app-header-name">Zane Russell</h2>
+          <h4>Front-End Developer</h4>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        {this.adjustMenuSticky()}
+        <section>
+          <About />
+          <Coding />
+          <Contact />
+        </section>
       </div>
     );
   }
