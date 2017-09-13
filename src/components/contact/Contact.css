@@ -18,15 +18,11 @@
 }
 
 .contact-icon {
-
-}
-
-.contact-image {
     fill: #222;
-    margin: 0 15px;
-    width: 50px;
+    margin: 0 20px;
+    width: 40px;
 }
 
-.contact-image:hover {
-    fill: #fff;
+.contact-icon:hover {
+    fill: #777;
 }
