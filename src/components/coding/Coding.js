@@ -23,7 +23,7 @@ export class Coding extends Component {
             return(
                 <div>
                     <CodingProject title="On Tour" 
-                                   summary="On Tour is a gas calculator for band on the road" 
+                                   summary="On Tour is a gas calculator for band on the road. Utilizing the GoogleMaps API, the U.S. Energy Information Administration API, and data provided by the user, On Tour will calculate distances and total cost with respect to local gas prices and return an estimate of total cost.  Notes can be stored within each location for easy recall." 
                                    builtUsing="React, Redux"
                                    picture={require('./ontour.png')}
                                    pageLink="https://zanedr.github.io/On-Tour/"
@@ -34,12 +34,24 @@ export class Coding extends Component {
                                    picture={require('./etude.png')}
                                    pageLink="https://shielded-depths-13754.herokuapp.com/"
                                    gitLink="https://github.com/zanedr/Etude"/>
-                    <CodingProject title="Tron" 
+                    <CodingProject title="Tron 2.0" 
                                    summary="Tron 2.0 is a clone of the classic arcade game, Tron.  It has two player capability, variable speeds, and a rudimentary AI to challenge 1-on-1." 
                                    builtUsing="VanillaJS"
                                    picture={require('./tron.png')}
                                    pageLink="https://zanedr.github.io/gametimeES6/"
                                    gitLink="https://github.com/zanedr/gametimeES6"/>
+                    <CodingProject title="Movie-Tracker" 
+                                   summary="Movie-Tracker was built in a three person group as our first foray into using React and Redux in conjunction with Node.js, Express and PostSQL.  It utilized The Movie Database API to display new releases and allow users to create accounts to track them." 
+                                   builtUsing="React, Redux, Node.js, Express"
+                                   picture={require('./movie.png')}
+                                   pageLink="https://movietracker-turing.herokuapp.com/"
+                                   gitLink="https://github.com/zanedr/movie_tracker"/>
+                    <CodingProject title="Montu Website" 
+                                   summary="Square-space esque website built for Norman, OK, EDM band Montu. The site was an experiment on using parallax scrolling for background images." 
+                                   builtUsing="HTML, CSS"
+                                   picture={require('./montu.png')}
+                                   pageLink="https://zanedr.github.io/montu-website/"
+                                   gitLink="https://github.com/zanedr/montu-website"/>
                 </div>
             )
         }

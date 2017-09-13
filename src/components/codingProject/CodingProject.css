@@ -1,7 +1,9 @@
 .coding-project-container {
+    border-top: 1px solid #222;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 20px 0;
+    padding-top: 25px;
     width: 100%;
 }
 
@@ -47,6 +49,7 @@
 }
 
 .coding-project-title {
+    margin: 0;
     font-size: 16px;
 }
 
