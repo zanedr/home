@@ -15,3 +15,7 @@
 .coding-title:hover {
     color: #777;
 }
+
+.coding-title:focus {
+    outline: 0;
+}

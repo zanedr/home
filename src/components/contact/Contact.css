@@ -9,5 +9,24 @@
     border: none;
     font-family: 'Lora', serif;
     font-size: 16px;
-    margin: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contact-links {
+    text-align: center;
+}
+
+.contact-icon {
+
+}
+
+.contact-image {
+    fill: #222;
+    margin: 0 15px;
+    width: 50px;
+}
+
+.contact-image:hover {
+    fill: #fff;
 }
