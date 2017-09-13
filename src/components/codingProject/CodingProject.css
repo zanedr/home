@@ -1,0 +1,58 @@
+.coding-project-container {
+    border-top: 1px solid #222;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.coding-project-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 5%;
+}
+
+.coding-project-link-icon {
+    margin: 10px auto;
+    transition-duration: 0.25s;
+    width: 75%;
+}
+
+.coding-project-link-icon:hover {
+    fill: #777;
+    transition-duration: 0.25s;
+}
+
+.coding-project-image-container {
+    margin: 0;
+    width: 30%;
+}
+
+.coding-project-image {
+    margin: 0;
+    width: 100%;
+}
+
+.coding-project-info {
+    margin: 0 2.5%;
+    width: 55%;
+}
+
+.coding-project-summary {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.coding-project-title {
+    margin: 0;
+    font-size: 16px;
+}
+
+.coding-project-built {
+    font-size: 13px;
+}

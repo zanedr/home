@@ -34,12 +34,12 @@ class App extends Component {
           <h2 className="app-header-name">Zane Russell</h2>
           <h4>Front-End Developer</h4>
         </div>
-        {this.adjustMenuSticky()}
+        {/* {this.adjustMenuSticky()} */}
         <section>
           <About />
           <Coding />
-          <Contact />
         </section>
+        <Contact />
       </div>
     );
   }
