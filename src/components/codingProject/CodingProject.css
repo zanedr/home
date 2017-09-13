@@ -5,9 +5,38 @@
     width: 100%;
 }
 
+.coding-project-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 5%;
+}
+
+.coding-project-link-icon {
+    margin: 10px auto;
+    transition-duration: 0.25s;
+    width: 75%;
+}
+
+.coding-project-link-icon:hover {
+    fill: #777;
+    transition-duration: 0.25s;
+}
+
+.coding-project-image-container {
+    margin: 0;
+    width: 30%;
+}
+
+.coding-project-image {
+    margin: 0;
+    width: 100%;
+}
+
 .coding-project-info {
-    margin: 0 3%;
-    width: 60%;
+    margin: 0 2.5%;
+    width: 55%;
 }
 
 .coding-project-summary {
@@ -21,12 +50,6 @@
     font-size: 16px;
 }
 
-.coding-project-image-container {
-    margin: 0;
-    width: 30%;
-}
-
-.coding-project-image {
-    margin: 0;
-    width: 100%;
+.coding-project-built {
+    font-size: 13px;
 }

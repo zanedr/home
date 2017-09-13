@@ -1,6 +1,7 @@
 #contact-container {
-    margin: 0 auto;
-    width: 60%;
+    top: 20px;
+    right: 20px;
+    position: fixed;
 }
 
 .contact-title {
@@ -19,9 +20,9 @@
 
 .contact-icon {
     fill: #222;
-    margin: 0 20px;
+    margin: 0 10px;
     transition-duration: 0.2s;
-    width: 40px;
+    width: 25px;
 }
 
 .contact-icon:hover {

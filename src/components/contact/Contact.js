@@ -4,10 +4,10 @@ import './Contact.css';
 export const Contact = () => {
     return (
         <section id='contact-container'>
-            <h3 className='contact-title'>Contact</h3>
+            {/* <h3 className='contact-title'>Contact</h3> */}
             <div className='contact-links'>
-                <a href=""><LinkdInSvg /></a>
                 <a href=""><MailSvg /></a>
+                <a href=""><LinkdInSvg /></a>
                 <a href=""><GitHubSvg/></a>
                 <a href=""><TwitterSvg /></a>
             </div>
