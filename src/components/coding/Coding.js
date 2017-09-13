@@ -6,7 +6,7 @@ export class Coding extends Component {
     constructor(props){
         super(props)
         this.state = {
-            popUp: false,
+            popUp: true,
         }
     }
 
@@ -22,7 +22,9 @@ export class Coding extends Component {
         if(this.state.popUp === true) {
             return(
                 <div>
-                    ALL DAS PROJECTS
+                    <CodingProject title="On Tour" summary="On Tour is a gas calculator for band on the road" picture={require('./ontour.png')}/>
+                    <CodingProject title="Etude" summary="On Tour is a gas calculator for band on the road" picture={require('./etude.png')}/>
+                    <CodingProject title="Tron" summary="On Tour is a gas calculator for band on the road" picture={require('./tron.png')}/>
                 </div>
             )
         }

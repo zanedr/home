@@ -1,0 +1,32 @@
+.coding-project-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
+.coding-project-info {
+    margin: 0 3%;
+    width: 60%;
+}
+
+.coding-project-summary {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.coding-project-title {
+    font-size: 16px;
+}
+
+.coding-project-image-container {
+    margin: 0;
+    width: 30%;
+}
+
+.coding-project-image {
+    margin: 0;
+    width: 100%;
+}
