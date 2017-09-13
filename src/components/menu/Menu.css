@@ -1,20 +1,21 @@
-/* .menu-option {
+.menu-option-text {
+    background: none;
+    border: none;
+    border-left: 1px solid #FFF;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
-    border-left: 1px solid #FFF;
     font-weight: 300;
     margin: 0 auto;
     height: 30px;
-    width: 120px;
+    width: 100px;
 }
 
-h3 {
-    margin: 5px;
-    width: 80px;
+.menu-option-text:focus {
+    outline: 0;
 }
 
-.menu-option:hover {
+.menu-option-text:hover {
     color: #777;
     border-left: 1px solid #777;
     transition-duration: 0.3s;
-} */
+}

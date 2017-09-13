@@ -6,7 +6,7 @@ export const Menuoption = (props) => {
 
     return (
         <article className={`menu-option ${classes}`}>
-            <h3 className="menu-option-text">{title}</h3>
+            <button className="menu-option-text">{title}</button>
         </article>
     )
 }
