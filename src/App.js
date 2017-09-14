@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { Route, Link, Switch } from 'react-router-dom'
-// import { Menu } from './components/menu/Menu'
+import { Menu } from './components/menu/Menu'
 import { About } from './components/about/About'
 import { Coding } from './components/coding/Coding'
 import { Contact } from './components/contact/Contact'
@@ -30,16 +30,17 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <Menu />
         <div className="app-header">
-          <h2 className="app-header-name">Zane Russell</h2>
+          <h2 id="app-header-name">Zane Russell</h2>
           <h4>Front-End Developer</h4>
         </div>
+        <Contact />
         {/* {this.adjustMenuSticky()} */}
         <section>
           <About />
           <Coding />
         </section>
-        <Contact />
       </div>
     );
   }

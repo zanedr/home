@@ -36,12 +36,12 @@ export const Resume = () => {
                         <li>Music Education</li>
                         <li>Versed in multiple instruments</li>
                         <li>Graphic Design</li>
+                        <li>Image Editing</li>
+                        <li>Interface Design</li>
                         <li>Small business management</li>
                         <li>Production coordinator</li>
                         <li>Marketing</li>
-                        <li>Image Editing</li>
                         <li>Web Usability</li>
-                        <li>Interface Design</li>
                     </ul>
                 </section>
             </section>

@@ -6,13 +6,15 @@ export const CodingProject = (props) => {
 
     return(
         <div className="coding-project-container">
-            <div className="coding-project-links">
-                <a href={gitLink}><GitHubSvg /></a>
-                <a href={pageLink}><LinkSvg /></a>
+            <div className="coding-link-image">
+                <div className="coding-project-links">
+                    <a href={gitLink}><GitHubSvg /></a>
+                    <a href={pageLink}><LinkSvg /></a>
+                </div>
+                <span className="coding-project-image-container">
+                    <img className="coding-project-image" alt={`screen shot of ${title}`} src={picture}/>
+                </span>
             </div>
-            <span className="coding-project-image-container">
-                <img className="coding-project-image" alt={`screen shot of ${title}`} src={picture}/>
-            </span>
             <section className="coding-project-info">
                 <h4 className="coding-project-title">{title}</h4>
                 <p className="coding-project-summary">{summary}</p>

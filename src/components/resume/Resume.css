@@ -13,7 +13,7 @@
 }
 
 .resume-left-side {
-    margin: 0;
+    margin: 0 20px 0 0;
     width: 35%;
 }
 
@@ -45,4 +45,27 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 1200px) {
+    #resume-container {
+        animation: none;
+        flex-direction: column;
+    }
+
+    .resume-left-side {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    
+    .resume-right-side {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .resume-work-history {
+        margin: 0 auto;
+    }
 }
