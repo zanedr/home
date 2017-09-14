@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Resume } from '../resume/Resume';
 import './About.css';
 
 export class About extends Component {
@@ -29,19 +30,28 @@ export class About extends Component {
         }
     }
 
+    detectResume() {
+        if(this.state.resumeDisplay === true) {
+            return(
+                <Resume />
+            )
+        }
+    }
+
     render() {
         return(
             <div id='about'>
-                <p id='about-text'>
+                <p className='about-text'>
                     I am a Front-End Developer and recent graduate from the Turing School of Software and Design.
                     Years of being curious about programming and computers led to a transition from teaching
-                    to pursuing an education in front-end engineering.
-                    This site is a resume and playground to experiment with javascript in a simple black 
+                    to pursuing an education in front-end engineering.</p>
+                <p className='about-text'> This site is a homepage, resume, and playground to experiment with javascript in a simple black 
                     and white design environment.
                 </p>
                 <button className='about-resume' onClick={() => this.switchPopUpStatus()}>
                     Resume {this.arrow()}
                 </button>
+                {this.detectResume()}
             </div>
         )
     }
