@@ -29,7 +29,6 @@
     list-style: none;
 }
 
-
 .resume-section-title {
     font-family: 'Lora', serif;
     font-size: 14px;
@@ -73,6 +72,14 @@
     @media screen and (max-width: 600px){
         #resume-container {
             width: 90%;
+        }
+
+        .resume-work-title {
+            font-size: 15px;
+        }
+
+        .resume-work-info {
+            font-size: 14px;
         }
     }
 }

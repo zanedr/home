@@ -27,4 +27,8 @@
     #coding-container {
         width: 90%;
     }
+
+    #coding-title {
+        font-size: 18px;
+    }
 }
