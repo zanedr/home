@@ -10,9 +10,9 @@
     font-family: 'Lora', serif;
     font-size: 16px;
     margin-bottom: 10px;
-    margin-left: 30.5%;
+    margin-left: 36%;
     margin-top: 10px;
-    width: 40%;
+    width: 30%;
 }
 
 #coding-title:hover {
@@ -30,5 +30,7 @@
 
     #coding-title {
         font-size: 18px;
+        margin-left: 30.5%;
+        width: 40%;
     }
 }
