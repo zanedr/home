@@ -1,0 +1,48 @@
+#resume-container {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    animation: resume;
+    animation-duration: 0.3s;
+}
+
+@keyframes resume {
+    0% {height: 0px; display: none; color: #fff}
+    90% {height: 550px; display: flex; color: #222}
+    100% {height: initial; color: #222}
+}
+
+.resume-left-side {
+    margin: 0;
+    width: 35%;
+}
+
+.resume-right-side {
+    margin: 0;
+    width: 65%;
+}
+
+.resume-section-list {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    list-style: none;
+}
+
+
+.resume-section-title {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+}
+
+.resume-work-title {
+    font-family: 'Lora', serif;
+    font-size: 13px;
+}
+
+.resume-work-info {
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}

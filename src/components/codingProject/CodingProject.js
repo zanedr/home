@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './CodingProject.css';
 
 export const CodingProject = (props) => {
@@ -11,7 +11,7 @@ export const CodingProject = (props) => {
                 <a href={pageLink}><LinkSvg /></a>
             </div>
             <span className="coding-project-image-container">
-                <img className="coding-project-image" src={picture}/>
+                <img className="coding-project-image" alt={`screen shot of ${title}`} src={picture}/>
             </span>
             <section className="coding-project-info">
                 <h4 className="coding-project-title">{title}</h4>
@@ -22,7 +22,7 @@ export const CodingProject = (props) => {
     )
 }
 
-const GitHubSvg = React.createClass({
+class GitHubSvg extends Component{
     render() {
         return (
             <svg className="coding-project-link-icon" viewBox="0 0 478.613 478.613">
@@ -46,9 +46,9 @@ const GitHubSvg = React.createClass({
             </svg>
         )
     }
-})
+}
 
-const LinkSvg = React.createClass({
+class LinkSvg extends Component{
     render() {
         return (
             <svg className="coding-project-link-icon" viewBox="0 0 478.613 478.613">
@@ -67,4 +67,4 @@ const LinkSvg = React.createClass({
             </svg>
         )
     }
-})
+}
