@@ -2,11 +2,7 @@ html, body {
   margin: 0;
 }
 
-.app {
-  /* text-align: center; */
-}
-
-.app-header {
+#app-header {
   font-family: 'Lora', serif;
   background-color: #fff;
   color: #222;

@@ -10,9 +10,9 @@ export class Menu extends Component {
     render() {
         return(
             <div id="menu">
-            <Menuoption title="Home" class="menu-home" location='#contact-container'/>
+            <Menuoption title="Home" class="menu-home" location='#home'/>
             <Menuoption title="Resume" class="menu-resume" location='#about-resume' />
-            <Menuoption title="Projects" class="menu-coding" location='#coding-title' />
+            <Menuoption title="Projects" class="menu-coding" location='#coding-container' />
           </div>
         )
     }

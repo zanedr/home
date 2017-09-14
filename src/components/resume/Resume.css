@@ -51,6 +51,7 @@
     #resume-container {
         animation: none;
         flex-direction: column;
+        width: 60%;
     }
 
     .resume-left-side {
@@ -67,5 +68,11 @@
 
     .resume-work-history {
         margin: 0 auto;
+    }
+
+    @media screen and (max-width: 600px){
+        #resume-container {
+            width: 90%;
+        }
     }
 }
