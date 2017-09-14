@@ -23,3 +23,8 @@
     outline: 0;
 }
 
+@media screen and (max-width: 700px) {
+    #coding-container {
+        width: 90%;
+    }
+}
