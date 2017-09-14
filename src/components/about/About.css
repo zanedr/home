@@ -19,10 +19,10 @@
     width: 30%;
 }
 
-.about-resume:hover {
+#about-resume:hover {
     color: #777;
 }
 
-.about-resume:focus {
+#about-resume:focus {
     outline: 0;
 }
