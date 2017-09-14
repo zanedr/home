@@ -2,6 +2,7 @@
   "name": "home-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zanedr.github.io/home",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -14,8 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
