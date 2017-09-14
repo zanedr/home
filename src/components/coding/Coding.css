@@ -15,11 +15,11 @@
     width: 30%;
 }
 
-.coding-title:hover {
+#coding-title:hover {
     color: #777;
 }
 
-.coding-title:focus {
+#coding-title:focus {
     outline: 0;
 }
 
