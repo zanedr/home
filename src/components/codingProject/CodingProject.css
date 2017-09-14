@@ -96,7 +96,13 @@
 
     @media screen and (max-width: 750px) {
         .coding-project-title {
+            font-size: 18px;
             margin-top: 10px;
+        }
+
+        .coding-project-summary {
+            font-size: 16px;
+            line-height: 22px;
         }
 
         .coding-link-image {
@@ -118,6 +124,7 @@
         }
         
         .coding-project-info {
+            font-size: 16px;
             margin: 0;
             width: 100%;
         }
