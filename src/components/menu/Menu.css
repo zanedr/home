@@ -7,8 +7,9 @@
     #menu {
         /* position: absolute; */
         background: #fff;
+        border-top: 1px solid #222;
         position: fixed;
-        top: 0;
+        bottom: 0;
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
@@ -34,6 +35,7 @@
     .menu-option-text:hover {
         color: #777;
         border-left: 1px solid #777;
+        border-right: 1px solid #777;
         transition-duration: 0.3s;
     }
     

@@ -1,5 +1,5 @@
 #coding-container {
-    margin: 0 auto;
+    margin: 0 auto 50px;
     width: 60%;
 }
 
@@ -10,9 +10,9 @@
     font-family: 'Lora', serif;
     font-size: 16px;
     margin-bottom: 10px;
-    margin-left: 36%;
+    margin-left: 30.5%;
     margin-top: 10px;
-    width: 30%;
+    width: 40%;
 }
 
 #coding-title:hover {
