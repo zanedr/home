@@ -10,10 +10,9 @@ export class Menu extends Component {
     render() {
         return(
             <div id="menu">
-            <Menuoption title="Home" class="menu-home" onClick={()=> {this.props.pageScroll}}/>
-            <Menuoption title="About" class="menu-about" />
-            <Menuoption title="Coding" class="menu-coding" />
-            <Menuoption title="Contact" class="menu-contact" />
+            <Menuoption title="Home" class="menu-home" location='#contact-container'/>
+            <Menuoption title="Resume" class="menu-resume" location='#about-resume' />
+            <Menuoption title="Projects" class="menu-coding" location='#coding-title' />
           </div>
         )
     }

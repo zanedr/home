@@ -48,7 +48,7 @@ export class About extends Component {
                 <p className='about-text'> This site is a homepage, resume, and playground to experiment with javascript in a simple black 
                     and white design environment.
                 </p>
-                <button className='about-resume' onClick={() => this.switchPopUpStatus()}>
+                <button id='about-resume' onClick={() => this.switchPopUpStatus()}>
                     Resume {this.arrow()}
                 </button>
                 {this.detectResume()}

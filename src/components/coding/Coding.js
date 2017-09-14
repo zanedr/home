@@ -72,7 +72,7 @@ export class Coding extends Component {
     render() {
         return (
             <div id='coding-container'>
-                <button className='coding-title' onClick={() => this.switchPopUpStatus()}>
+                <button id='coding-title' onClick={() => this.switchPopUpStatus()}>
                     Projects {this.arrow()}
                 </button>
                 {this.detectPopUp()}
