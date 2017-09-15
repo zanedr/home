@@ -51,6 +51,7 @@
         animation: none;
         flex-direction: column;
         width: 60%;
+        color: #000;
     }
 
     .resume-left-side {
