@@ -1,2 +1,3 @@
-Personal website built with create-react-app.  This is an attempt to integrate a number of new (for me) interactive features into a relatively simple black and white design.
+A simple, personal website built with react
 
+[github pages site](https://zanedr.github.io/home/)
