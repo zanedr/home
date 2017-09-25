@@ -1,12 +1,11 @@
 {
-  "main.css": "static/css/main.9f0ffe54.css",
-  "main.css.map": "static/css/main.9f0ffe54.css.map",
-  "main.js": "static/js/main.24b1a47c.js",
-  "main.js.map": "static/js/main.24b1a47c.js.map",
+  "main.css": "static/css/main.0462106e.css",
+  "main.css.map": "static/css/main.0462106e.css.map",
+  "main.js": "static/js/main.56c05fe6.js",
+  "main.js.map": "static/js/main.56c05fe6.js.map",
   "static/media/etude.png": "static/media/etude.d341c7df.png",
   "static/media/jetfuel.png": "static/media/jetfuel.10ca5ffb.png",
   "static/media/montu.png": "static/media/montu.1a8f84ed.png",
   "static/media/movie.png": "static/media/movie.def59289.png",
-  "static/media/ontour.png": "static/media/ontour.c247146d.png",
   "static/media/tron.png": "static/media/tron.7061d4c1.png"
 }
